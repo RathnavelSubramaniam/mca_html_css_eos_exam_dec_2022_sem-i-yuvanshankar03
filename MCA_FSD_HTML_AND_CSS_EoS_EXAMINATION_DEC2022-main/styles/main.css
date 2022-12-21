@@ -1,0 +1,164 @@
+header{
+    background-image: linear-gradient(45deg,rgb(241, 137, 137),rgb(203, 203, 241));
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+}
+header span{
+    color: orangered;
+}
+header #navbarNavAltMarkup{
+    background: orange;
+    margin-top: -7px;
+}
+header #navbarNavAltMarkup:hover{
+    background:pink;
+    margin-top: -7px;
+}
+header #navbarNavAltMarkup a{
+    padding: 20px;
+}
+header #navbarNavAltMarkup a:hover{
+    color: red;
+    margin-top: -7px;
+}
+.div1{
+    width: 500px;
+    height: 400px;
+}
+.maindiv{
+    width: fit-content;
+    column-gap: 50px;
+}
+.maindiv h2{
+    column-span: 3;
+}
+.sec1div1 span{
+    color: red;
+}
+.sec1div1 a{
+    text-decoration: none;
+}
+.sec1div1 a:hover{
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+.sec1div1 h2:hover{
+    color: green;
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #mainnav{
+    font-size: larger;
+  }
+  #mainnav a{
+    color: black;
+  }
+  #mainnav a:hover{
+    color: red;
+    background: pink;
+    margin-top: -5px;
+  }
+  .asidenav{
+    text-align: center;
+    font-size: larger;
+  }
+  .asidenav a:hover{
+    text-align: center;
+    margin-top: -5px;
+    background:pink;
+    color: red;
+  }
+  .foodiv{
+    background-image: linear-gradient(45deg,rgb(203, 203, 241),rgb(241, 137, 137));
+    height:fit-content;
+}
+.fooicon{
+    margin-bottom: 0;
+}
+.foodiv #icon{
+    font-size:x-large;
+}
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+  html{
+    font-size: 70%;
+  }
+  header{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+  }
+}
+@media(max-width:700px){
+  html{
+    font-size: 70%;
+  }
+  header{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+  }
+  .asidenav{
+    float: left;
+  }
+}
+@media(max-width: 600px) {
+  html{
+    font-size: 70%;
+  }
+  header{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+  }
+  .column {
+      width: 100%;
+    }
+  .asidenav{
+      float: left;
+    }
+}
+@media(max-width:400px){
+  html{
+    font-size: 70%;
+  }
+  header{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+  }
+  .asidenav{
+    float: left;
+  }
+}

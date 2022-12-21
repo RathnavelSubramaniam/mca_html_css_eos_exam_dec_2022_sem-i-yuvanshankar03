@@ -1,0 +1,262 @@
+header{
+    background-image: linear-gradient(45deg,rgb(241, 137, 137),rgb(203, 203, 241));
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+}
+header span{
+    color: orangered;
+}
+.pro-div{
+    margin-top: .5em;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 1em;
+}
+.pro-div1 a{
+    text-decoration: none;
+    text-align: center;
+}
+#imgpro-div1{
+    width: 70%;
+    margin-left: 1em;
+}
+.pro-div::after{
+    content: "";
+    display:flex;
+    clear: both;
+}
+.pro-div1{
+    float: right;
+    padding: 1em;
+}
+.pro-div1:hover{
+    transform: scale(1.2);
+}
+.div1{
+    width: 400px;
+    height: 400px;
+}
+.foodiv{
+    background-image: linear-gradient(45deg,rgb(203, 203, 241),rgb(241, 137, 137));
+    height:fit-content;
+}
+.foodiv #icon{
+    font-size:x-large;
+}
+#mainnav{
+    font-size: larger;
+}
+#mainnav a{
+   color: black;
+}
+#mainnav a:hover{
+   color: red;
+   background: pink;
+   margin-top: -5px;
+}
+.aboutdiv{
+    display: flex;
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row .content{
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;   
+}
+.contact .row form .box{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #3333;
+    color:white;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+}
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: rgb(9, 9, 9);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+} 
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(54, 50, 50);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color: orange;
+}
+.amodiv1{
+    margin-left: 40%;
+    margin-top: 10%;
+    background: lavenderblush;
+    width: fit-content;
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .left {
+    width: 20%;
+  }
+  
+  .right {
+    width: 80%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* styles for buy page,feedback,service */
+  .comdiv1{
+    margin-left: 40%;
+    margin-top: 10%;
+    background: lavenderblush;
+    width: fit-content;
+}
+
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row .content{
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;   
+}
+.contact .row form .box{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #3333;
+    color:white;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+}
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: rgb(9, 9, 9);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+} 
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(54, 50, 50);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color: orange;
+}
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+    html{
+      font-size: 70%;
+    }
+    header{
+      width: 100%;
+    }
+    footer{
+      width: 100%;
+    }
+  }
+  @media(max-width:700px){
+    html{
+      font-size: 70%;
+    }
+    header{
+      width: 100%;
+    }
+    footer{
+      width: 100%;
+    }
+  }
+  @media(max-width: 600px) {
+    html{
+      font-size: 70%;
+    }
+    header{
+      width: 100%;
+    }
+    footer{
+      width: 100%;
+    }
+    .column {
+        width: 100%;
+      }
+  }
+  @media(max-width:400px){
+    html{
+      font-size: 70%;
+    }
+    header{
+      width: 100%;
+    }
+    footer{
+      width: 100%;
+    }
+    .comdiv1{
+        margin-left: 10%;
+        margin-top: 10%;
+        background: lavenderblush;
+        width: fit-content;
+    }
+    .successdiv img{
+        width: 100%;
+    }
+    
+  }
